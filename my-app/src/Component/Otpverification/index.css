@@ -1,0 +1,114 @@
+
+.button{
+    padding: 10px;
+    width: 300px;
+     color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#d428cd,#6c63cb);
+  }
+
+  
+ 
+  .image12{
+    height: 558px;
+    width: 900px;
+    border-radius: 0px 0px 0px 20px;
+    margin-top: 115px;
+   
+  
+  }
+  .text{
+    color: #d428cd;
+    font-weight: 400px;
+    
+  }
+  .color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+  }
+  .part2{
+    display: flex;
+    flex-direction: row;
+    justify-content:50%;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,#d428cd,#6c63cb);
+    height: 100vh;
+    overflow: none;
+  }
+  .part1{
+    border-radius: 20px;
+    width: 0%;
+  }
+  .registre{
+    width: 50%;
+    
+    height: 100%;
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    font-size: 14px;
+  text-align: center;
+  }
+  .for{
+    
+  
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  
+  .c1{
+  
+    margin-left: 120px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  .create{
+    margin-left: 100px;
+    text-align: center; 
+    
+  }
+  
+
+ .otp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+  
+  .f1{
+    margin-left: 120px;
+  text-align: center;
+  
+  }
+  .a1{
+    height: 80px;
+    width:80px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+
+    .a1{
+      height: 00px;
+      width:0px;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+  }
